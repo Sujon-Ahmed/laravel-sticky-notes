@@ -1,0 +1,33 @@
+/* custom css start here */
+.note-content:hover{
+  cursor: pointer;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+}
+.note-menu {
+  position: absolute; 
+  right:2%; 
+  top:2%;
+  visibility: hidden;
+}
+.note-time {
+  position: absolute; 
+  right:2%; 
+  top:2%;
+}
+.note-body:hover .note-menu {
+  visibility: visible;
+}
+.note-body:hover .note-time {
+  visibility: hidden;
+}
+li.nav-item {
+  list-style-type: none;
+}
+ul {
+  text-decoration: none;
+}
+ul li {
+  list-style-type: none;
+}
+
+/* custom css end here */
