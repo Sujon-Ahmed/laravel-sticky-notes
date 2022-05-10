@@ -90,6 +90,7 @@
                     <div class="modal-body">
                         <h3>Name : {{ Auth::user()->name }}</h3>
                         <h5>Email : {{ Auth::user()->email }}</h5>
+                        <h5>Total Notes : {{ $total_notes }}</h5>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
